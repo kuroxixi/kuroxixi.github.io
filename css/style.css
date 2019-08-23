@@ -1,0 +1,46 @@
+body {
+  align-items: center;
+  text-align: center;
+}
+
+/*Top container*/
+.top-container {
+  background-color: #dedede;
+}
+
+.welcomeText {
+  font-family: Sacramento, cursive, sans-serif;
+}
+
+.portrait {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.menu {
+  background-color: #ff4949;
+}
+
+.menuItem {
+  margin: 10px;
+  color: black;
+  color: #eeeeee;
+}
+
+/*Top container END*/
+/*Middle container*/
+.middle-container {
+  background-color: #eeeeee;
+  font-family: sans-serif;
+padding: 0px;
+}
+
+/*Middle container END*/
+/*Bottom container*/
+.bottom-container {
+  background-color: #c10000;
+  color: #eeeeee;
+}
+
+/*Bottom container END*/
