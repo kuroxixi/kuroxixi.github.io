@@ -1,79 +1,78 @@
 body {
   align-items: center;
   text-align: center;
-  background-color: #dedede;
+  background-color: #103c42;
 }
-
 
 /*Top container*/
-.top-container {
-  background-color: #dedede;
+.dark-top-container {
+  background-color: #02576c;
 }
 
-.welcomeText {
+.dark-welcomeText {
   font-family: Sacramento, cursive, sans-serif;
 }
 
-.portrait {
+.dark-portrait {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
 
-.menu {
-  background-color: #ff4949;
+.dark-menu {
+  background-color: #05a19c;
 }
 
-.menuItem {
+.dark-menuItem {
   margin: 10px;
-  color: black;
-  color: #eeeeee;
+  color: #ffe837;
 }
 
 /*Top container END*/
 /*Middle container*/
-.middle-container {
-  background-color: #eeeeee;
+.dark-middle-container {
+  background-color: #05a19c;
   font-family: sans-serif;
-padding: 0;
+  padding: 0;
 }
 
 /*Middle container END*/
 /*Bottom container*/
-.bottom-container {
-  background-color: #c10000;
+.dark-bottom-container {
+  background-color: #ffe837;
   color: #eeeeee;
 }
 
 /*Bottom container END*/
-
-
 table, th, td {
-
-  border: 5px dashed #c10000;
+  border: 5px dashed #ffe837;
   border-collapse: collapse;
 }
+
 th, td {
   padding: 8px;
   text-align: left;
 }
 
-.gundamgif{
+.dark-gundamgif {
   border-radius: 15%;
-  border: 7px dashed #c10000;
+  border: 7px dashed #ffe837;
 }
 
-.middle-container-hobbies {
+.dark-middle-container-hobbies {
   font-family: sans-serif;
   font-weight: bolder;
   padding: 0;
+  color: #ffe837;
 }
 
-.gunplapic {
+.dark-gunplapic {
   width: auto;
   height: 500px;
   border-radius: 15%;
-  border: 7px dashed #c10000;
+  border: 7px dashed #ffe837;
+}
 
-
+.dark-link {
+  color: white;
 }
