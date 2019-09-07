@@ -38,6 +38,17 @@ body {
 padding: 0;
 }
 
+.storetable{
+  border: 7px solid #c10000;
+}
+.compStoreImg {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+}
+
+
+
 /*Middle container END*/
 /*Bottom container*/
 .bottom-container {
