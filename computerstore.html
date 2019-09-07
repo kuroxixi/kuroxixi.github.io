@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Carlos Diaz Computer Store</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&amp;display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="top-container">
+    <h1 class="welcomeText">Welcome to</h1>
+    <img class="portrait" src="assets\images\carlosDiazportrait.jpg" alt="carlos-Portrait" />
+    <h2 class="welcomeText">Carlos A. Diaz Izquierdo website</h2>
+    <div class="menu">
+      <h3><a class="menuItem" href="index.html">Home</a> <a class="menuItem" href="computerstore.html">Computer Store</a> <a class="menuItem" href="hobbies.html">Hobbies</a> <a class="menuItem" href="table.html">Course Schedules</a><a
+          class="menuItem" href="darkhome.html">DARK MODE</a></h3>
+    </div>
+  </div>
+
+  <div class="middle-container">
+    <p>Hardware,Software and peripherals that are not found in this page like:(cooling system,keyboard,mouse,OS and dvd-rom drives)
+      <br /> can be found in the local store when you bring the generated receipt from this webpage</p>
+
+    <table class="storetable">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <h3>CPU <br />
+              <select id="cpu" onchange="myFunction()">
+                <option value="200.00">INTEL CORE i5-9500</option>
+                <option value="300.00">INTEL CORE i7-9700</option>
+                <option value="400.00">INTEL CORE i9-9900</option>
+              </select>
+            </h3>
+          </th>
+        </tr>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.intel.com/content/dam/products/hero/foreground/core-i5-unlocked-box-1x1.png.rendition.intel.web.128.128.png" alt="" />
+            <br />INTEL CORE i5-9500<br /><a href="https://www.intel.com/content/www/us/en/products/processors/core/i5-processors/i5-9500.html" target="_blank">more info</a> <br /></td>
+          <td>$200.00</td>
+        </tr>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.intel.com/content/dam/products/hero/foreground/core-i7-unlocked-box-1x1.png.rendition.intel.web.128.128.png" alt="" />
+            <br />INTEL CORE i7-9700<br />
+            <a href="https://www.intel.com/content/www/us/en/products/processors/core/i7-processors/i7-9700.html" target="_blank">more info</a></td>
+          <td>$300.00</td>
+        </tr>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.intel.com/content/dam/products/hero/foreground/core-i9-unlocked-box-1x1.png.rendition.intel.web.128.128.png" alt="" />
+            <br />INTEL CORE i9-9900<br />
+            <a href="https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900.html" target="_blank">more info</a></td>
+          <td>$400.00</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table class="storetable">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <h3>Motherboard <br />
+              <select id="mboard" onchange="myFunction()">
+                <option value="280.00">ASUS ROG MAXIMUS XI HERO</option>
+                <option value="440.00">ASUS ROG MAXIMUS XI FORMULA</option>
+                <option value="550.00">ASUS ROG MAXIMUS XI EXTREME</option>
+              </select>
+            </h3>
+          </th>
+        </tr>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.asus.com/media/global/gallery/k3qAsTv3ob6ZzWww_setting_000_1_90_end_500.png" alt="asus motherboard 1" />
+            <br />ASUS ROG MAXIMUS XI HERO<br /><a href="https://www.asus.com/Motherboards/ROG-MAXIMUS-XI-HERO-WI-FI/" target="_blank">more info</a> <br /></td>
+          <td>$280.00</td>
+        </tr>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.asus.com/media/global/gallery/UisvGAOKsJ1YzpGp_setting_000_1_90_end_500.png" alt="asus motherboard 2" />
+            <br />ASUS ROG MAXIMUS XI FORMULA<br /><a href="https://www.asus.com/Motherboards/ROG-MAXIMUS-XI-FORMULA/" target="_blank">more info</a> <br /></td>
+          <td>$420.00</td>
+        </tr>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.asus.com/media/global/gallery/JQRrJEjIOwyF0Fsu_setting_000_1_90_end_500.png" alt="asus motherboard 3" />
+            <br />ASUS ROG MAXIMUS XI EXTREME<br /><a href="https://www.asus.com/Motherboards/ROG-MAXIMUS-XI-EXTREME/" target="_blank">more info</a> <br /></td>
+          <td>$550.00</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table class="storetable">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <h3>RAM <br />
+              <select id="ram" onchange="myFunction()">
+                <option value="380.00">1 set of VENGEANCE PRO 16GB</option>
+                <option value="608.00">2 sets of VENGEANCE PRO 16GB(saving 20%)</option>
+                <option value="400.00">1 set of Trident Z RGB 16GB</option>
+                <option value="640.00">2 sets of Trident Z RGB 16GB(saving 20%)</option>
+              </select>
+            </h3>
+          </th>
+        </tr>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.corsair.com/medias/sys_master/images/images/h52/h22/9112729288734/-CMW16GX4M2K4266C19-Gallery-Vengeance-RGB-Pro-10-2up.png" alt="ram 1" />
+            <br />VENGEANCE RGB PRO 16GB <br /> (2 x 8GB) DDR4 4266MHz<br /><a href="https://www.corsair.com/us/en/Categories/Products/Memory/Vengeance-PRO-RGB-Black/p/CMW16GX4M2K4266C19" target="_blank">more info</a> <br /></td>
+          <td>1 set $380.00 <br /><br /> 2 sets $608.00(saving 20%)</td>
+        </tr>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.gskill.com/_upload/images/153665914210.png" alt="ram 2" />
+            <br />Trident Z RGB 16GB <br />(2 x 8GB) DDR4 4600MHz<br /><a href="https://www.gskill.com/product/165/166/1536659142/F4-4600C18D-16GTZRTrident-Z-RGBDDR4-4600MHz-CL18-22-22-42-1.45V16GB-(2x8GB)" target="_blank">more info</a> <br /></td>
+          <td>1 set $400.00 <br /> <br /> 2 sets $640.00(saving 20%)</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table class="storetable">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <h3>GPU<br />
+              <select id="gpu" onchange="myFunction()">
+                <option value="400.00">GEFORCE RTX 2060 SUPER</option>
+                <option value="500.00">GEFORCE RTX 2070 SUPER</option>
+                <option value="700.00">GEFORCE RTX 2080 SUPER</option>
+                <option value="1200.00">GEFORCE RTX 2080 TI</option>
+              </select>
+              Quantity:
+              <select id="gpuQuantity" onchange="myFunction()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </h3>
+          </th>
+        </tr>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/2080-ti/gallery/geforce-rtx-2080-ti-gallery-c.jpg" alt="gpu" />
+            <br />GEFORCE RTX 20 SERIES<br /><a href="https://www.nvidia.com/en-us/geforce/20-series/?nvid=nv-int-csfg-48617#cid=internal_en-us_CORPSFG_No-Campaign" target="_blank">more info</a> <br /></td>
+          <td>
+            GEFORCE RTX 2060 SUPER<br />$400.00<br /><br />
+            GEFORCE RTX 2070 SUPER<br />$500.00<br /><br />
+            GEFORCE RTX 2080 SUPER<br />$700.00<br /><br />
+            GEFORCE RTX 2080 TI<br />$1200.00
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table class="storetable">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <h3>Storage <br />SSD:
+              <select id="ssd" onchange="myFunction()">
+                <option value="90.00">SAMSUNG 256GB</option>
+                <option value="150.00">SAMSUNG 512GB</option>
+                <option value="250.00">SAMSUNG 1TB</option>
+                <option value="450.00">SAMSUNG 2TB</option>
+                <option value="900.00">SAMSUNG 4TB</option>
+              </select>
+              <br />HDD:
+              <select id="hdd" onchange="myFunction()">
+                <option value="35.00">BarraCuda 3.5 inch 500GB</option>
+                <option value="45.00">BarraCuda 3.5 inch 1TB</option>
+                <option value="55.00">BarraCuda 3.5 inch 2TB</option>
+                <option value="80.00">BarraCuda 3.5 inch 3TB</option>
+              </select>
+              Quantity:
+              <select id="hddQuantity" onchange="myFunction()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </h3>
+          </th>
+        </tr>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img class="compStoreImg" src="https://image-us.samsung.com/SamsungUS/home/computing/memory-and-storage/solid-state-drives/pdp/ssd860-pro/mz-76p256bw/MZ-76P256BW_1.jpg?$product-details-jpg$" alt="ssd img" />
+            <br />SAMSUNG SSD 860 PRO 2.5" SATA III<br /><a href="https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-860-pro-2-5--sata-iii-256gb-mz-76p256bw/" target="_blank">more info</a> <br /></td>
+          <td>
+            256GB<br />$90.00<br /><br />
+            512GB<br />$150.00<br /><br />
+            1TB<br />$250.00<br /><br />
+            2TB<br />$450.00<br /><br />
+            4TB<br />$900.00
+          </td>
+        </tr>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.seagate.com/www-content/product-content/barracuda-fam/barracuda-new/images/row5-barracuda-2-5-2tb-hero-right-lo-res.png" alt="hdd img" />
+            <br />BarraCuda 3.5 inch Hard Drive<br /><a href="https://www.seagate.com/internal-hard-drives/hdd/barracuda/" target="_blank">more info</a> <br /></td>
+          <td>
+            500GB<br />$35.00<br /><br />
+            1TB<br />$45.00<br /><br />
+            2TB<br />$55.00<br /><br />
+            3TB<br />$80.00
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table class="storetable">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <h3>PSU <br />
+              <select id="psu" onchange="myFunction()">
+                <option value="240.00">Corsair HX1200</option>
+                <option value="550.00">EVGA SuperNOVA 1600 T2</option>
+              </select>
+            </h3>
+          </th>
+        </tr>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.corsair.com/medias/sys_master/images/images/h6f/h4d/9110773497886/-CP-9020140-NA-Gallery-HX1200-01.png" alt="psu 1" />
+            <br />Corsair HX1200<br />80+ TITANIUM 1200W, Fully Modular<br /><a href="https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/hxi-series-2017-config/p/CP-9020140-NA" target="_blank">more info</a> <br /></td>
+          <td>$240.00</td>
+        </tr>
+        <tr>
+          <td><img class="compStoreImg" src="https://images.evga.com/products/gallery/png/220-T2-1600-X1_LG_1.png" alt="psu 2" />
+            <br />EVGA SuperNOVA 1600 T2<br />80+ TITANIUM 1600W, Fully Modular<br /><a href="https://www.evga.com/products/product.aspx?pn=220-T2-1600-X1" target="_blank">more info</a> <br /></td>
+          <td>$550.00</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table class="storetable">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <h3>Case<br />
+              <select id="case" onchange="myFunction()">
+                <option value="180.00">Corsair Graphite Series 780T</option>
+                <option value="300.00">Cooler Master COSMOS C700P</option>
+              </select>
+            </h3>
+          </th>
+        </tr>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img class="compStoreImg" src="https://www.corsair.com/medias/sys_master/images/images/h35/ha3/9111204790302/-CC-9011063-WW-Gallery-780T-Black-001.png" alt="case 1" />
+            <br />Corsair Graphite Series 780T<br />Full-Tower PC Case<br /><a href="https://www.corsair.com/us/en/Categories/Products/Cases/Graphite-Series%E2%84%A2-780T-Full-Tower-PC-Case/p/CC-9011063-WW" target="_blank">more info</a> <br /></td>
+          <td>$180.00</td>
+        </tr>
+        <tr>
+          <td><img class="compStoreImg" src="https://store.coolermaster.com/content/images/thumbs/0005080_cosmos-c700p.jpeg" alt="case 2" />
+            <br />Cooler Master COSMOS C700P<br />Full-Tower PC Case<br /><a href="https://store.coolermaster.com/apac/cosmos-c700p" target="_blank">more info</a> <br /></td>
+          <td>$300.00</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+
+    <p id="subTotalPrint">Sub Total: <span id="subTotal"></span></p>
+    <p id="totalPrint">Total with tax: <span id="total"></span></p>
+    <button type="button" onclick="receipt()">Generate receipt order</button>
+
+    <script type="text/javascript">
+      function myFunction() {
+        var cpu = parseFloat(document.getElementById("cpu").value);
+        var mb = parseFloat(document.getElementById("mboard").value);
+        var ram = parseFloat(document.getElementById("ram").value);
+        var gpu = parseFloat(document.getElementById("gpu").value);
+        var gpuQuantity = parseFloat(document.getElementById("gpuQuantity").value);
+        var ssd = parseFloat(document.getElementById("ssd").value);
+        var hdd = parseFloat(document.getElementById("hdd").value);
+        var hddQuantity = parseFloat(document.getElementById("hddQuantity").value);
+        var psu = parseFloat(document.getElementById("psu").value);
+        var pcCase = parseFloat(document.getElementById("case").value);
+
+        var subTotal = ((gpu * gpuQuantity) + (hdd * hddQuantity) + cpu + mb + ram + ssd + psu + pcCase).toFixed(2);
+        var total = (subTotal * 1.115).toFixed(2);
+
+        document.getElementById("subTotal").innerHTML = "$" + (subTotal);
+        document.getElementById("total").innerHTML = "$" + (total);
+      }
+
+      function receipt() {
+        var subTotalPrint = document.getElementById("subTotalPrint").textContent;
+        var totalPrint = document.getElementById("totalPrint").textContent;
+        var orderNum = (1 + Math.random() * 1000000).toFixed(0);
+        window.alert("Your Order Number: " + orderNum + "\n" + subTotalPrint + "\n" + totalPrint + "\nWrite down your Order Number and bring it to your nearest store.");
+      }
+
+
+
+      myFunction();
+    </script>
+
+
+  </div>
+
+  <div class="bottom-container">
+
+
+  </div>
+
+</body>
+
+</html>

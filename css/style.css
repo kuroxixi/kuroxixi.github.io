@@ -50,7 +50,7 @@ padding: 0;
 
 table, th, td {
 
-  border: 5px dashed #c10000;
+  border: 5px solid #c10000;
   border-collapse: collapse;
 }
 th, td {
@@ -76,4 +76,13 @@ th, td {
   border: 7px dashed #c10000;
 
 
+}
+
+.storetable{
+  border: 7px solid #c10000;
+}
+.compStoreImg {
+  background-color: black;
+  width: 150px;
+  height: 150px;
 }
