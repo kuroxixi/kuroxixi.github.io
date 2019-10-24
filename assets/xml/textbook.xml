@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="textbook.xsl" ?>
+
+<textbooks>
+    <textbook>
+        <title>CALCULUS</title>
+        <author>
+            <author-first-name>Ron</author-first-name>
+            <author-last-name>Larson</author-last-name>
+        </author>
+        <publisher>
+            <publisher-name>Brooks</publisher-name>
+            <publisher-website>https://brookespublishing.com/</publisher-website>
+        </publisher>
+        <year>2009</year>
+        <covertype type="hardcover">Hardcover</covertype>
+        <ISBN>0547167024</ISBN>
+        <edition>9th edition</edition>
+        <price>200.00</price>
+    </textbook>
+
+    <textbook>
+        <title>Visual C# How to Program</title>
+        <author>
+            <author-first-name>Paul</author-first-name>
+            <author-last-name>Deitel</author-last-name>
+        </author>
+        <publisher>
+            <publisher-name>Pearson</publisher-name>
+            <publisher-website>https://www.pearson.com/</publisher-website>
+        </publisher>
+        <year>2016</year>
+        <covertype type="paperback">Paperback</covertype>
+        <ISBN>0-13-650154-8</ISBN>
+        <edition>6th edition</edition>
+        <price>150.00</price>
+    </textbook>
+
+        <textbook>
+        <title>Internet &amp; World Wide Web How to Program</title>
+        <author>
+            <author-first-name>Harvey</author-first-name>
+            <author-last-name>Deitel</author-last-name>
+        </author>
+        <publisher>
+            <publisher-name>Pearson</publisher-name>
+            <publisher-website>https://www.pearson.com/</publisher-website>
+        </publisher>
+        <year>2004</year>
+        <covertype type="paperback">Paperback</covertype>
+        <ISBN>9780131450912</ISBN>
+        <edition>3rd edition</edition>
+        <price>40.00</price>
+    </textbook>
+</textbooks>
